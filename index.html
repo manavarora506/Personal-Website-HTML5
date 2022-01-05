@@ -169,6 +169,22 @@
 
 				<!-- Footer -->
 					<footer id="footer">
+
+						<div class="pb-10 flex flex-col"> 
+							<div class="flex justify-center"> 
+								<iframe id="spotify-track" class="rounded-xl" src="https://open.spotify.com/embed/track/360hKM9ocvx5dl5fPmzKCq" width="300" 
+								height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+								<button class="ml-4 focus:outline-none" onclick="changeTrack()"> 
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+									class="rounded-md fill-current text-black hover:text-indigo-500 transition duration-300" viewBox="0 0 16 16"> 
+									<path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 
+									3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z">
+								</path> </svg> 
+							</button> 
+						</div> 
+					</div>
+					<script> function changeTrack() { document.getElementById('spotify-track').src = getRandomTrack(); } changeTrack(); </script>
+
 						<p class="copyright">&copy; Manav Arora. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 				
@@ -184,6 +200,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/spotify.js"></script>
 
 	</body>
 </html>
