@@ -11,6 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/spotify.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -25,10 +32,9 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Hi friends!</h1>
-								<p>My name is Manav Arora and I'm currently a student at the University of Texas at Austin
-									studying Computer Engineering. Here is a link to my 
-									<a href="Manav_Arora_Resume.pdf" target="blank">Resume</a>
-								</p>
+								<p>My name is Manav Arora and I'm currently a student at the</p>
+<p style="color: #cc5500;">The University of Texas at Austin <span style="color: #ffffff;">studying Computer Engineering.</span></p>
+<p>Here is a link to my <a href="Manav_Arora_Resume.pdf" target="blank">Resume</a></p>
 							</div>
 						</div>
 						<nav>
@@ -48,15 +54,16 @@
 							<article id="intro">
 								<h2 class="major">About Me</h2>
 								<span class="image main"><img src="images/websitePortfolio.jpeg" alt="" /></span>
-								<p> I'm currently a junior at UT studying Computer engineering and Business. 
+								<p> Hi! My name is Manav and I'm currently a junior at UT studying Computer engineering and Business. 
 								
-								</p>
-									I pride myself on being a fast self-learner, a good team-player, and having strong communication skills. These days I am trying to learn more about full-stack devloepment, BlockChain technology,
-									and IOS programming. This last summer I worked at Mavenir and built data analsyis tools using MATLAB and also particpated in Driving Forward's summer capstone program where I led a team in 
-									finding various ways Bitcoin mining companies could actively reduce their energy consumption. I will be interning at Amazon this upcoming summer and I am very excited for the opportunity.
-								</p>
+									<p>I pride myself on being a fast self-learner, being a good team player, and having strong communication skills. These days I am trying to learn more about 
+										full-stack development, BlockChain technology, and iOS programming. This last summer I worked at Mavenir and built data analysis tools using 
+										<span style="color: #ff0000;">MATLAB</span> and also participated in <span style="color: #339966;">Driving Forward's</span> 
+									summer capstone program where I led a team in finding various ways Bitcoin mining companies could actively reduce their energy consumption.
+									I will be interning at <span style="color: #ff9900;">Amazon</span> this summer as a Software Development Engineer and look forward to working on and 
+									exciting projects and gaining new experiences.</p>
 
-								<p> My plans for now are to continue refining skills and adding tools to my software toolbox, while I continue building projects in areas that interest me. By the way, check out my
+								<p> My plans, for now, are to continue refining skills and adding tools to my software toolbox, while I continue building projects in areas that interest me. By the way, check out my
 									<a href="#projects">awesome work!</a> </p>
 							</article>
 
@@ -134,7 +141,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact me</h2>
-								<form method="post" action="mailto:manavarora506@gmail.com">
+								<form method="post" action="mailto:manavarora506@utexas.edu">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -172,11 +179,11 @@
 
 						<div class="pb-10 flex flex-col"> 
 							<div class="flex justify-center"> 
-								<iframe id="spotify-track" class="rounded-xl" src="https://open.spotify.com/embed/track/360hKM9ocvx5dl5fPmzKCq" width="300" 
+								<iframe id="spotify-track" class="rounded-xl" src="https://open.spotify.com/embed/track/15EPc80XuFrb2LmOzGjuRg" width="300" 
 								height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
 								<button class="ml-4 focus:outline-none" onclick="changeTrack()"> 
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
-									class="rounded-md fill-current text-black hover:text-indigo-500 transition duration-300" viewBox="0 0 16 16"> 
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="60" 
+									class="rounded-md fill-current text-black hover:text-indigo-500 transition duration-300" viewBox="0 0 16 28"> 
 									<path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 
 									3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z">
 								</path> </svg> 
@@ -185,6 +192,7 @@
 					</div>
 					<script> function changeTrack() { document.getElementById('spotify-track').src = getRandomTrack(); } changeTrack(); </script>
 
+				
 						<p class="copyright">&copy; Manav Arora. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 				
@@ -194,13 +202,14 @@
 		<!-- BG -->
 			<div id="bg"></div>
 
-		<!-- Scripts -->
+		
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/spotify.js"></script>
+		
 
 	</body>
 </html>
